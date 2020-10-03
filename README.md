@@ -45,6 +45,12 @@ and if you are using Jupyter Notebook
 
 * `sudo ipython -m pip install pygraphviz`
 
+## Example:
+
+Here is an example of the current output of the function:
+![Image of example output]
+(https://github.com/mabhishetty/crawler_operations/blob/main/new_test.png)
+
 ## Known Issues/To do:
 
 * There seems to be a problem with the colours of the node fillings: they are being overwritten when nodes have multiple connections
