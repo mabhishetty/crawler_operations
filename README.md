@@ -12,12 +12,12 @@ This has been included as a separate repository because the function stands alon
 ## Structure:
 
 A very simple script, a summary of the structure is:
-* Begin loop
-** Take a visited site
-** Add a node for this site
-** Add nodes for each of the other sites in the links, with appropriate colour, shapes and tooltip links
-** Add directed edges between the visited site and each of those links
-* Repeat loop
+- Begin loop
+  - Take a visited site
+  - Add a node for this site
+  - Add nodes for each of the other sites in the links, with appropriate colour, shapes and tooltip links
+  - Add directed edges between the visited site and each of those links
+- Repeat loop
 
 ## Usage:
 
