@@ -49,7 +49,7 @@ and if you are using Jupyter Notebook
 
 Here is an example of the current output of the function:
 
-![Image of example output](https://github.com/mabhishetty/crawler_operations/blob/main/new_test.png?raw=true)
+![Image of example output](https://github.com/mabhishetty/crawler_operations/blob/main/new_test.png)
 
 ## Known Issues/To do:
 
