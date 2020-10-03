@@ -50,6 +50,7 @@ and if you are using Jupyter Notebook
 Here is an example of the current output of the function:
 
 ![Image of example output](https://github.com/mabhishetty/crawler_operations/blob/main/new_test.png)
+<img src="https://github.com/mabhishetty/crawler_operations/blob/main/new_test.png"  width="120" height="120">
 
 ## Known Issues/To do:
 
