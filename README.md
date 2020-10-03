@@ -48,8 +48,9 @@ and if you are using Jupyter Notebook
 ## Example:
 
 Here is an example of the current output of the function:
-
 <img src="https://github.com/mabhishetty/crawler_operations/blob/main/new_test.png"  width="2000" height="50">
+Click the image to see a more detailed view. This is in .png format - not .svg. 
+This is to protect data. In .svg, hovering over the nodes will give their respective URLs.
 
 ## Known Issues/To do:
 
