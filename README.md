@@ -58,12 +58,19 @@ and if you are using Jupyter Notebook
 ## Example:
 
 Here are two examples of the current output of the function:
+
+The first:
+
 <img src="https://github.com/mabhishetty/crawler_operations/blob/main/myGraphEg.png"  width="2000" height="50">
+
+The second:
+
 <img src="https://github.com/mabhishetty/crawler_operations/blob/main/myGraphEg2.png"  width="2000" height="50">
 
 - Click the image to see a more detailed view. 
 - This is in .png format - not .svg. This is to protect data.
   - As part of my crawling policy (explained here: https://www.mycustomcrawlerexplanations.com), I have tried not to publish any website-specific data.
+  - Therefore the title is not displayed in the png - and tooltips won't be available to view
 - However when not used for examples, the script generates .svg files.
 
 ## Features
@@ -75,18 +82,18 @@ The key features of the .svg graph are as follows:
     - A white node represents a site that may be reached from multiple of the 'sites_visited'
     - Any other-colour node is linked by only one of the sites_visited. The colour of the node matches the colour of the site_visited
     - Edges all have the colour of the site_visited from which they exit
-  - For numbers:
-    - Each of the sites_visited has an integer as its node label (the number seen)
-    - The other node labels show the order in which links were *first uniquely* found.
-      - As the picture shows, 1's links reach very high numbers. However 2's links reach much lower numbers, despite 2 having a lot of links. This is because the majority of 2's links were already found when the crawler was on site 1. (This does not include sites_visited which are numbered before any other sites)
   - For shapes:
     - Circles signify ordinary links
     - Boxes signify sites_visited
     - Triangles indicate links with a url 'None'
     - Diamonds indicate links with urls that start with '#' - which jumps to content on the same page (this doesn't consider hash-bang syntax: https://www.oho.com/blog/explained-60-seconds-hash-symbols-urls-and-seo)
-  - Tooltips for:
-    - Edges: Hover over an edge to see the *multiplicity* of the edge - how many times that exact link is found on the site_visited - which saves repeating the same edge multiple times
-    - Nodes: Hover over a node to see the url it represents
+- For numbers:
+    - Each of the sites_visited has an integer as its node label (the number seen)
+    - The other node labels show the order in which links were *first uniquely* found.
+      - As the picture shows, 1's links reach very high numbers. However 2's links reach much lower numbers, despite 2 having a lot of links. This is because the majority of 2's links were already found when the crawler was on site 1. (This does not include sites_visited which are numbered before any other sites)
+- Tooltips for:
+  - Edges: Hover over an edge to see the *multiplicity* of the edge - how many times that exact link is found on the site_visited - which saves repeating the same edge multiple times
+  - Nodes: Hover over a node to see the url it represents
 
 ## Known Issues/To do:
 
